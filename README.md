@@ -17,11 +17,11 @@ sudo apt-get install python3 python3-pip
 ```
 ## Bibliotecas Python
 ```
-$ pip3 install --user Flask
+pip3 install --user Flask
 ```
 # Execução
 Inicie a aplicação executando python3 server.py e interaja com a mesma abrindo uma janela no seu browser com o endereço http://localhost:9001/
-
+```
 $ python3 server.py
 2021-11-27 15:07:33 - INFO - Connected to database movie_stream
  * Serving Flask app "app" (lazy loading)
@@ -31,3 +31,4 @@ $ python3 server.py
  * Debug mode: off
 2021-11-27 15:07:33 - INFO -  * Running on http://0.0.0.0:9001/ (Press CTRL+C to quit)
 ...
+```
